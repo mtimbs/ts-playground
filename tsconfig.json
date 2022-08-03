@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "lib",
+    "alwaysStrict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "lib": [
+      "ESNext"
+    ],
+    "module": "CommonJS",
+    "noEmitOnError": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "stripInternal": true,
+    "target": "ES2019",
+    "composite": true,
+    "allowUnreachableCode": false,
+    "baseUrl": "./",
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "@src/*": [
+        "./src/*"
+      ],
+    },
+    "skipLibCheck": true
+  },
+  "include": [
+    "*.ts",
+  ],
+  "types": ["vitest/globals"],
+  "exclude": []
+}
